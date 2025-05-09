@@ -1,4 +1,5 @@
-index.html
+html 
+
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -16,11 +17,11 @@ index.html
     </header> 
     <nav>
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Turmas</a></li>
-            <li><a href="">Professores</a></li>
-            <li><a href="">Horarios</a></li>
-            <li><a href="">Contatos</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="turmas.html">Turmas</a></li>
+            <li><a href="professores.html">Professores</a></li>
+            <li><a href="horarios.html">Horarios</a></li>
+            <li><a href="contatos.html">Contatos</a></li>
         </ul>
     </nav>
     <main>
@@ -35,7 +36,9 @@ index.html
 
 
 
-style.css
+
+css
+
 
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
 
@@ -70,4 +73,16 @@ li a{
     color: pink;
     text-decoration: none;
     padding: 14px 16px;
+    font-family: "Tangerine", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 50px;
 }
+
+li a:hover{
+    background-color: rgb(193, 255, 177);
+
+}
+
+
+
