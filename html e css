@@ -1,0 +1,73 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evellyn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+           <h1>Colégio Estadual André Andreatta</h1>
+
+    </header> 
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Turmas</a></li>
+            <li><a href="">Professores</a></li>
+            <li><a href="">Horarios</a></li>
+            <li><a href="">Contatos</a></li>
+        </ul>
+    </nav>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
+
+
+
+
+css
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: pink;
+}
+
+h1{
+    color:rgb(255, 0, 221); 
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+}
+
+ul{
+    list-style-type: none;
+    background-color: rgb(255, 0, 170);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: pink;
+    text-decoration: none;
+    padding: 14px 16px;
+}
